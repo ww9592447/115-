@@ -129,7 +129,7 @@ class Client:
         target = f'U_1_{cid}'
         filesize = str(getsize(path))
         data = {
-            'appid': cid,
+            'appid': '0',
             'appversion': self.app_version,
             'filename': basename(path),
             'filesize': filesize,
